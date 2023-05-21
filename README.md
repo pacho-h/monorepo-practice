@@ -26,3 +26,8 @@ add NestJS app
 ```shell
 npx nx g @nx/nest:app {application name}
 ```
+
+running multiple apps
+```shell
+nx run-many --target=serve --projects=api,auth --parallel
+```
